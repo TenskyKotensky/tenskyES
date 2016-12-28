@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<GridPane alignment="center" hgap="10" style="-fx-border-style: none;" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Expert.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="278.0" prefWidth="200.0">
+         <children>
+            <Button id="buttonAdd" fx:id="buttonAdd" layoutX="17.0" layoutY="239.0" mnemonicParsing="false" onAction="#buttondAddAction" prefHeight="25.0" prefWidth="158.0" text="Добавить в базу" />
+            <TextField id="textFieldName" fx:id="textFieldName" layoutX="17.0" layoutY="14.0" prefHeight="25.0" prefWidth="158.0" promptText="Название вида еды" />
+            <ChoiceBox id="listCategory" fx:id="listCategory" layoutX="17.0" layoutY="61.0" prefHeight="25.0" prefWidth="158.0" />
+            <ChoiceBox id="listSize" fx:id="listSize" layoutX="17.0" layoutY="101.0" prefHeight="25.0" prefWidth="158.0" />
+            <ChoiceBox id="listForm" fx:id="listForm" layoutX="17.0" layoutY="139.0" prefHeight="25.0" prefWidth="158.0" />
+            <ChoiceBox id="listColor" fx:id="listColor" layoutX="17.0" layoutY="180.0" prefHeight="25.0" prefWidth="158.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
